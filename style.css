@@ -8,12 +8,12 @@ a:hover{
 }
 
 li{ list-style: none;}
-p{
+/**p{
     font-size: 0.9rem;
     line-height: 1.6;
     font-weight: 400;
     color: #606060;
-}
+}**/
 
 
 .extra-div h2{
@@ -35,6 +35,13 @@ p{
 
 }
 
+.logo img{
+   /*** float: right;***/
+    height: 150%;
+    width: 250px;
+    padding-right: 30px;
+}
+
 .navbar:before{
     content: "";
     position: absolute;
@@ -42,6 +49,7 @@ p{
     bottom: 0;
     left: 0;
     right: 0;
+
 
 }
 
@@ -51,6 +59,7 @@ p{
     color: #ffff;
     text-align: center;
     position: relative;
+    
 }
 
 .center-div{
